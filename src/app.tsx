@@ -5,8 +5,8 @@ import { Hello } from "./components/Hello";
 // import  Demo  from "./views/demo/demo";
 // import { Demo2 } from "./views/demo/demo2";
 // import styles from './app.less';
-import { observable } from "mobx";
-import { observer } from "mobx-react";
+// import { observable } from "mobx";
+// import { observer } from "mobx-react";
 import 'antd/dist/antd.css';
 import './app.less';
 import { Router, Redirect, Route, Switch } from "react-router";
@@ -31,7 +31,7 @@ const Demo = lazyLoad(() => import('./views/demo'));
 const Demo2 = lazyLoad(() => import('./views/demo2'));
 // 'HelloProps' describes the shape of props.
 // State is never set so we use the '{}' type.
-@observer
+// @observer
 class App extends React.Component<Props, {}> {
   render() {
     return <div className={'text'}>

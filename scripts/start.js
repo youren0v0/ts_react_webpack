@@ -9,6 +9,6 @@
   })
   const server = new webpackDevServer(compiler, options);
 
-  server.listen(3000, '100.83.96.145', () => {
+  server.listen(3000, '127.0.0.1', () => {
       console.log('Starting server on http://localhost:8080');
   })
