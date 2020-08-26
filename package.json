@@ -1,7 +1,7 @@
 {
-  "name": "emergency-response",
+  "name": "ts-react-webpack",
   "version": "1.0.0",
-  "description": "emergency-response",
+  "description": "ts-react-webpack",
   "private": true,
   "scripts": {
     "dll": "node ./scripts/dll.js",
