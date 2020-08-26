@@ -28,6 +28,7 @@ history.location = Object.assign(history.location, {
 });
 //const MyDemo = lazyLoad(() => import('./views/demo/demo'));
 const Demo = lazyLoad(() => import('./views/demo'));
+
 const Demo2 = lazyLoad(() => import('./views/demo2'));
 // 'HelloProps' describes the shape of props.
 // State is never set so we use the '{}' type.
