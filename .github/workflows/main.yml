@@ -31,4 +31,4 @@ node-version: ${{ matrix.node-version }}
 # 该运行的命令或者action
 # 安装依赖、运行测试、打包
     - run: npm install
-    - run: npm run build
+    - run: npm run-script build
